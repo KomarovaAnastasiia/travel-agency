@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply border rounded-lg shadow-md p-4;
+}
+.card img {
+  @apply w-full h-40 object-cover;
+}
+.card button {
+  @apply mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700;
+}
